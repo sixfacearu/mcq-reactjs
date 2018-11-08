@@ -11,7 +11,7 @@ class Invitefrnd extends Component {
         }
     }
     componentDidMount(){
-        axios.get('http://localhost:4000/getuserdetail').then(res=>{
+        axios.get('https://mcqbackendaru.herokuapp.com/getuserdetail').then(res=>{
           this.setState({listfrnd:res.data})
         })
     }
