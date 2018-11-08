@@ -24,7 +24,7 @@ export default class Ques extends Component {
 
       
       
-        axios.get('http://localhost:4000/getqus/' + id).then(res => {
+        axios.get('https://mcqbackendaru.herokuapp.com/getqus/' + id).then(res => {
             console.log(res.data.length);
             this.setState({ data: res.data })
            length=res.data.length;

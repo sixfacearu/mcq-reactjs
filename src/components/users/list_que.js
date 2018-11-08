@@ -24,7 +24,7 @@ class Categories extends Component {
     }
     componentDidMount(){
       
-        axios.get('http://localhost:4000/getcat').then(res=>{
+        axios.get('https://mcqbackendaru.herokuapp.com/getcat').then(res=>{
             this.setState({datas:res.data})
            
         })

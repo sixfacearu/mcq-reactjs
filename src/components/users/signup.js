@@ -34,7 +34,7 @@ class Signup extends Component{
             email:this.state.email
         }
        
-        axios.post('http://localhost:4000/Usersignup' ,detail).then((res)=>{
+        axios.post('https://mcqbackendaru.herokuapp.com/Usersignup' ,detail).then((res)=>{
             console.log(res.data)
             if(res.data.success=="new user add"){
                 this.props.history.push('/userlogin');

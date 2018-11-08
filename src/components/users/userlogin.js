@@ -29,7 +29,7 @@ fun(){
         email:this.state.email
     }
     console.log(detail);
-    axios.post('https://localhost:4000/signin' ,detail).then((res)=>{
+    axios.post('https://mcqbackendaru.herokuapp.com/signin' ,detail).then((res)=>{
       
         var a=res.data;
         console.log(a.token);

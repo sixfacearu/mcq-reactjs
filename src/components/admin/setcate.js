@@ -44,7 +44,7 @@ class Setcat extends Component{
         category:this.state.cat,
         tot_qus:this.state.qus,
        }
-       axios.post('http://localhost:4000/addcat',val).then(res=>{
+       axios.post('https://mcqbackendaru.herokuapp.com/addcat',val).then(res=>{
            console.log(res.data)
        })
        this.fun();

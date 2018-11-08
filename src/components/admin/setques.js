@@ -75,7 +75,7 @@ class Setques extends Component {
 
     }
 
-    axios.post('http://localhost:4000/addqus', detail).then(res => {
+    axios.post('https://mcqbackendaru.herokuapp.com/addqus', detail).then(res => {
       console.log(res.data)
     })
     this.cm()
