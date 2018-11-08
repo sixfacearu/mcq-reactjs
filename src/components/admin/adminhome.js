@@ -31,7 +31,7 @@ class Adminhome extends Component{
         <div>
             <nav id="nav" class="navbar navbar-expand-sm">
                 <img src={'../assets/images/logo.jpg'} class="avatar" alt="img" />
-                <h3 id="nb" class="navbar-brand">&nbsp;<b>Multicple Choice Questions</b><br /><small>&nbsp;Keep Learning</small></h3>
+                <h3 id="nb" class="navbar-brand">&nbsp;<b>Multiple Choice Questions</b><br /><small>&nbsp;Keep Learning</small></h3>
                 <ul class="nav navbar-nav">
                 <li onClick={this.fun}><a href="#" id="li"><b>LOGOUT</b></a></li>
                 
