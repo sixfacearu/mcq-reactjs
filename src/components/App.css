@@ -1,0 +1,363 @@
+/* User page */
+
+body{
+  background-color: whitesmoke;
+}
+#nav{
+  background-color: #3F729B;
+  height: 80px;
+}
+#nb{
+  color:white;
+  text-transform: capitalize;
+}
+.avatar {
+  vertical-align: middle;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+b{
+  text-transform: capitalize;
+  font-family: sans-serif;
+}
+#li{
+  color:white;
+  font-family:sans-serif;
+  margin-left: 650px;
+ 
+  font-size: 12px;
+}
+
+#li1{
+  color:white;
+  font-family:sans-serif;
+  margin-left: 40px;
+ 
+ 
+  font-size: 12px;
+}
+#li2{
+  color:white;
+  font-family:sans-serif;
+  margin-left: 40px;
+  
+  font-size: 12px;
+}
+.img {
+  margin-left:50px;
+  object-fit: cover;
+  width:35px;
+  height:35px;
+}
+.img1 {
+
+  width:35px;
+  height:35px;
+  
+ 
+}
+#snav{
+  margin-top:20px;
+  float: left;
+  margin-left:50px;
+  height: 580px;
+  width: 400px;
+  background-color: #3F729B
+}
+
+#con{
+  margin-right: 300px;
+  margin-top:20px;
+  float: right;
+  height: 580px;
+  width: 700px;
+  overflow:auto;
+  overflow-x:hidden;
+  background-color: #3F729B;
+}
+#foo{
+  top:50px;
+  width: 100%;
+  height: 220px;
+  margin-bottom: 50px;
+}
+#ct{
+padding:21px;
+font-size: 20px;
+background-color:#37B4CD;
+height: 80px;
+text-align: center;
+color: white;
+
+}
+#cd{
+  background: #3F729B;
+margin-top:-13px;
+}
+h5:hover{
+  color: rgb(10, 241, 10);
+  box-shadow: none;
+  outline: 0ch;
+  
+  
+}
+
+h5{
+  color: white;
+  font-size: 15px;
+
+
+
+  
+}
+#r{
+  font-size:15px;
+ 
+}
+#rr{
+  margin-left:100px;
+}
+#sp{
+  margin-left:142px;
+}
+#spp{
+  margin-left:373px;
+}
+#sppp{
+  margin-left:327px;
+}
+#spppp{
+  margin-left:289px;
+}
+
+#ss{
+  margin-left:105px;
+}
+.img3{
+  margin-left:150px;
+  height: 25px;
+  width:25px;
+}
+.img4{
+
+  height: 25px;
+  width:25px;
+}
+#nq{
+  margin-left:170px;
+}
+#nc{
+  margin-left:170px;
+}
+#qn{
+  float: right;
+}
+#qcd:hover{
+background: #37B4CD;
+}
+#trs{
+  background-color: #37B4CD;
+}
+#pca{
+  width:500px;
+  height: 500px;
+  margin-left:100px;
+  margin-top:50px;
+}
+.pimg{
+  margin-top:10px;
+  margin-left:200px;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+#pbt{
+  margin-top:10px;
+  width:100px;
+  margin-left:370px;
+  background-color:  #37B4CD;
+  border-radius: 50%;
+  
+}
+#un{
+  text-align: center;
+  font-family: sans-serif;
+  
+}
+.img5{
+  margin-left:25px;
+  height: 25px;
+  width:25px;
+}
+#c{
+  margin-left:70px;
+}
+#cts{
+  font-size: 15px;
+  font-family: sans-serif;
+  text-shadow: #3F729B;
+}
+#ci{
+  width: 100px;
+  margin-left:180px;
+  margin-top:20px;
+}
+#pcaa{
+  width:500px;
+  height: 500px;
+  margin-left:100px;
+  margin-top:50px;
+}
+#cif{
+  width:500px;
+  height: 120px;
+  
+}
+#cis{
+  width:250px;
+  height: 50px;
+  margin-left:250px;
+  margin-top:-50px;
+}
+#fb{
+  float: right;
+  width:100px;
+}
+
+#scd{
+  height: 70px;
+}
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+button:hover {
+    opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    padding: 14px 20px;
+    
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+ 
+}
+
+/* Add padding to container elements */
+.container {
+    padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+       width: 100%;
+    }
+}
+#rs{
+  text-align: center;
+  margin-left:90px;
+}
+#urb{
+  width:300px;
+  margin-left:50px;
+  margin-top:100px;
+
+}
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+#nors{
+  padding: 30px;
+ 
+}
+#ib{
+  margin-top:20px;
+  margin-left: 100px;
+}
+#btsn{
+  width: 100px;
+  margin-left:280px;
+}
+#qust{
+  margin-left:40px;
+}
+#cs{
+  color: white;
+  margin-left: 490px;
+ 
+  font-size: 20px;
+  margin-bottom: 20px;
+}
