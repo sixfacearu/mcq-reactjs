@@ -135,7 +135,7 @@ export default class Ques extends Component {
                         <div class="card">
                             <button class="btn btn-primary" id="btsn" onClick={this.fun}>Next</button>
                             <button class="btn btn-primary" id="btsn" onClick={this.fun1}>Previous</button>
-                            <button class="btn btn-primary" id="btsn" onClick={this.fun3}>Submit Test</button>
+                            {/* <button class="btn btn-primary" id="btsn" onClick={this.fun3}>Submit Test</button> */}
                         </div>
                     </div>
                 )
